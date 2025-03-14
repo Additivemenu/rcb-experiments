@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { ChatBotClient } from "./_components/ChatBotClient";
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
           </div>
           <Button>Get Started</Button>
         </header>
-
+        <ChatBotClient />
         {/* Hero Section */}
         <section className="py-12 text-center">
           <h2 className="text-4xl font-extrabold mb-4">
